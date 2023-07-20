@@ -1,0 +1,29 @@
+<users>
+    <user>
+      <username>iankevinlising@gmail.com</username>
+      <password>1234</password>
+      <name>Ian Kevin Lising</name>
+      <college>BS INFORMATION TECHNOLOGY</college>
+      <year>THIRD YEAR</year>
+       <profilePic>path/to/image.jpg</profilePic>
+    </user>
+    <user>
+      <username>ninacavmerhan@gmail.com</username>
+      <password>1234</password>
+       <name>Nina Claire Alejandra Merhan</name>
+      <college>BS INFORMATION TECHNOLOGY</college>
+      <year>THIRD YEAR</year>
+       <profilePic>assets/nina.png</profilePic>
+    </user>
+  
+     <user>
+      <username>ianlising@gmail.com</username>
+      <password>1234</password>
+       <name>Ian Lising</name>
+      <college>BS INFORMATION TECHNOLOGY</college>
+      <year>THIRD YEAR</year>
+       <profilePic>assets/Panganiban_ID.jpg</profilePic>
+    </user>
+  
+   
+  </users>

@@ -1,0 +1,93 @@
+<CATALOG>
+    <PLANT>
+    <COMMON>Ian Kevin Lising</COMMON>
+    <BOTANICAL>11/02/01</BOTANICAL>
+    <ZONE>21</ZONE>
+    <LIGHT>Malitam 3 Batangas City</LIGHT>
+    <PRICE>09123456789</PRICE>
+    <AVAILABILITY>ianlising@gmail.com</AVAILABILITY>
+    <profilePic>assets/ian.JPG</profilePic>
+    </PLANT>
+
+    <PLANT>
+    <COMMON>Nina Claire Alejandra Merhan</COMMON>
+    <BOTANICAL>01/16/02</BOTANICAL>
+    <ZONE>20</ZONE>
+    <LIGHT>Sta. Rita Batangas City</LIGHT>
+    <PRICE>09123456789</PRICE>
+    <AVAILABILITY>ninanica@gmail.com</AVAILABILITY>
+    <profilePic>assets/nina.jpeg</profilePic>
+    </PLANT>
+
+    <PLANT>
+    <COMMON>Cath Mendoza</COMMON>
+    <BOTANICAL>2/22/02</BOTANICAL>
+    <ZONE>21</ZONE>
+    <LIGHT>Batangas City</LIGHT>
+    <PRICE>09123456789</PRICE>
+    <AVAILABILITY>cathm@gmail.com</AVAILABILITY>
+    </PLANT>
+
+    <PLANT>
+    <COMMON>Kean Brutas</COMMON>
+    <BOTANICAL>10/18/01</BOTANICAL>
+    <ZONE>21</ZONE>
+    <LIGHT>Lipa City</LIGHT>
+    <PRICE>09123456789</PRICE>
+    <AVAILABILITY>krbrutas@gmail.com</AVAILABILITY>
+    </PLANT>
+
+    <PLANT>
+    <COMMON>Jarren Eroa</COMMON>
+    <BOTANICAL>09/21/01</BOTANICAL>
+    <ZONE>21</ZONE>
+    <LIGHT>Batangas City</LIGHT>
+    <PRICE>09123456789</PRICE>
+    <AVAILABILITY>jmeroa@gmail.com</AVAILABILITY>
+    </PLANT>
+
+    <PLANT>
+    <COMMON>ID Urriquia</COMMON>
+    <BOTANICAL>01/21/01</BOTANICAL>
+    <ZONE>21</ZONE>
+    <LIGHT>Batangas City</LIGHT>
+    <PRICE>09123456789</PRICE>
+    <AVAILABILITY>id@gmail.com</AVAILABILITY>
+    </PLANT>
+
+    <PLANT>
+    <COMMON>Amiel Buquid</COMMON>
+    <BOTANICAL>01/11/01</BOTANICAL>
+    <ZONE>21</ZONE>
+    <LIGHT>Batangas City</LIGHT>
+    <PRICE>09123456789</PRICE>
+    <AVAILABILITY>aims@gmail.com</AVAILABILITY>
+    </PLANT>
+
+    <PLANT>
+    <COMMON>Mikelo Antonina</COMMON>
+    <BOTANICAL>01/11/01</BOTANICAL>
+    <ZONE>22</ZONE>
+    <LIGHT>Batangas City</LIGHT>
+    <PRICE>09105620015</PRICE>
+    <AVAILABILITY>mike@gmail.com</AVAILABILITY>
+    </PLANT>
+
+    <PLANT>
+    <COMMON>Raymonde Folcmar</COMMON>
+    <BOTANICAL>01/11/02</BOTANICAL>
+    <ZONE>25</ZONE>
+    <LIGHT>Batangas City</LIGHT>
+    <PRICE>09954104829</PRICE>
+    <AVAILABILITY>ray@gmail.com</AVAILABILITY>
+    </PLANT>
+
+    <PLANT>
+        <COMMON>Ian Lising</COMMON>
+        <BOTANICAL>1/11/01</BOTANICAL>
+        <ZONE>21</ZONE>
+        <LIGHT>Batangas City</LIGHT>
+        <PRICE>09123456789</PRICE>
+        <AVAILABILITY>ianlising@gmail.com</AVAILABILITY>
+        </PLANT>
+    </CATALOG>

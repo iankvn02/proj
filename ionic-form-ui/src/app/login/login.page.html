@@ -1,0 +1,45 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button></ion-back-button>
+        </ion-buttons>
+        <ion-title>Applicant Log In</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="background-image">
+    <div class="background-image">
+        <div class="container">
+            <div class="fill-up">
+                <h1 class="SPES">SPES
+
+                </h1>
+                <div class="fill-up-container">
+                    <ion-card>
+                        <form (ngSubmit)="validateForm()">
+                            <ion-item class="background-image1" class="custom-item">
+                                <ion-label position="floating">Email</ion-label>
+                                <ion-input type="text" [(ngModel)]="username" name="username"></ion-input>
+                            </ion-item>
+
+                            <ion-item class="background-image1" class="custom-item">
+                                <ion-label position="floating">Password</ion-label>
+                                <ion-input type="password" [(ngModel)]="password" name="password"></ion-input>
+                            </ion-item>
+
+                            <div class="container">
+                                <ion-button type="submit" shape="round">
+                                    <ion-icon name="lock-open-outline" style="padding-right: 5px;"></ion-icon>Sign In
+                                </ion-button>
+                            </div>
+                            <a [routerLink]="['/forgot-password']" class="forgot-password">Forgot Password?</a>
+                            <div *ngIf="loginFailed" class="login-error">
+                                Invalid username or password
+                            </div>
+                        </form>
+                    </ion-card>
+                </div>
+            </div>
+        </div>
+    </div>
+</ion-content>

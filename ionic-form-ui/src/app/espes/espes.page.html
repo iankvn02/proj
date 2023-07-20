@@ -1,0 +1,49 @@
+<ion-header [translucent]="true">
+    <ion-toolbar class="background">
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Espes Fill up Form</ion-title>
+        <ion-buttons slot="end">
+            <ion-button class="custom-text-button " (click)="logout()">
+                <ion-icon class="icons" name="arrow-forward"></ion-icon>
+                Sign-out
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <form (ngSubmit)="submitForm()">
+        <ion-item>
+            <ion-label position="floating">Name</ion-label>
+            <ion-input [(ngModel)]="name" name="name" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="floating">Birthdate</ion-label>
+            <ion-input [(ngModel)]="bday" name="bday" type="bday" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="floating">Age</ion-label>
+            <ion-input [(ngModel)]="age" name="age" type="age" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="floating">Address</ion-label>
+            <ion-input [(ngModel)]="add" name="add" type="add" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="floating">Contact Number</ion-label>
+            <ion-input [(ngModel)]="phone" name="phone" type="phone" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="floating">Email</ion-label>
+            <ion-input [(ngModel)]="email" name="email" type="email" required></ion-input>
+        </ion-item>
+
+        <ion-button expand="full" [routerLink]="['/message']" type="submit">Submit</ion-button>
+    </form>
+</ion-content>

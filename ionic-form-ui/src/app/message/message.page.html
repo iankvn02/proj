@@ -1,0 +1,29 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>
+            eSpes: Online Registration and Database System
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="auth-form">
+    <div class="background-image">
+        <div class="container">
+            <div class="fill-up">
+                <ion-grid>
+                    <ion-row>
+                        <div class="fill-up-container">
+                            <ion-col align-self-center>
+                                <h1>Your Application has been Submitted</h1><br>
+                                <div class="button">
+                                    <p>Kindly wait for an SMS for further information regarding the next step of your aplication </p>
+                                    <ion-button [routerLink]="['/choose']" expand="block" color="danger">OK</ion-button>
+                                </div>
+                            </ion-col>
+                        </div>
+                    </ion-row>
+                </ion-grid>
+            </div>
+        </div>
+    </div>
+</ion-content>
