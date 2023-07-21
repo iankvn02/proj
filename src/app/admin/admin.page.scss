@@ -1,0 +1,155 @@
+ion-content {
+    --ion-background-color: rgba(255, 255, 255, 0.8);
+    --ion-item-background: rgba(255, 255, 255);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow: hidden;
+}
+
+.icons {
+    color: rgb(0, 0, 0);
+}
+
+.menu {
+    --background: transparent;
+}
+
+ion-icon {
+    color: rgb(0, 0, 0);
+}
+
+.forms-item {
+    border-bottom: 1px solid black;
+}
+
+.forms {
+    --background: rgba(255, 255, 255, 0.236);
+}
+
+.header-toolbar {
+    font-weight: bold;
+    height: auto;
+    font-size: 10px;
+}
+
+.background {
+    --background: linear-gradient(to right, rgba(46, 0, 252, 0.781), rgba(46, 0, 252, 0.781));
+}
+
+ion-item,
+.column1 {
+    float: left;
+    width: 30%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.column2 {
+    float: right;
+    width: 70%;
+    padding: 5px;
+    background-color: #E1ECC8;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(14, 14, 16);
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+input {
+    position: relative;
+    cursor: text;
+    font-size: 17px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    padding: 0 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #d6d6e7;
+    border-radius: 3px;
+    color: rgb(35, 38, 59);
+    box-shadow: inset 0 1px 4px 0 rgb(119 122 175 / 30%);
+    overflow: hidden;
+    transition: all 100ms ease-in-out;
+     :focus {
+        border-color: #3c4fe0;
+        box-shadow: 0 1px 0 0 rgb(35 38 59 / 5%);
+    }
+}
+
+.container {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+body {
+    font-family: "Trirong", serif;
+    font-style: black;
+}
+
+.column1 {
+    font-size: 14px;
+    border-radius: 6px;
+    line-height: 1.5;
+    padding: 5px 10px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    display: block;
+    height: 36px;
+     :hover {
+        border-color: #ccc;
+    }
+     :focus {
+        border-color: #0400ff;
+        background: #fff;
+    }
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+
+.background-image {
+    position: relative;
+}
+
+.background-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 500px;
+    background-image: url('/assets/spes-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+}

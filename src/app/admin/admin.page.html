@@ -1,0 +1,70 @@
+<ion-header [translucent]="true">
+    <ion-toolbar class="background">
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Admin</ion-title>
+        <ion-buttons slot="end">
+            <ion-button class="custom-text-button " (click)="logout()">
+                <ion-icon class="icons" name="arrow-forward"></ion-icon>
+                Sign-out
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div class="container">
+        <div class="column1">
+            <div class="image-container">
+                <ion-img [src]="users.profilePic" class="profile-pic"></ion-img>
+                <!--for text boxes-->
+            </div>
+            <br>
+            <label for="common">Name: </label><br>
+            <ion-input type="text" id="common" name="common" [(ngModel)]="common"></ion-input>
+
+            <br>
+            <label for="botanical">Birthdate:</label><br>
+            <ion-input type="text" id="botanical" name="botanical" [(ngModel)]="botanical"></ion-input>
+
+            <br>
+            <label for="zone">Age:</label><br>
+            <ion-input type="text" id="zone" name="zone" [(ngModel)]="zone"></ion-input>
+
+            <br>
+            <label for="light">Address: </label><br>
+            <ion-input type="text" id="light" name="light" [(ngModel)]="light"></ion-input>
+
+            <br>
+            <label for="price">Contact Number:</label><br>
+            <ion-input type="text" id="price" name="price" [(ngModel)]="price"></ion-input>
+
+            <br>
+            <label for="availability">Email:</label><br>
+            <ion-input type="text" id="availability" name="availability" [(ngModel)]="availability"></ion-input>
+        </div>
+
+        <div class="column2">
+            <table id="plantTable">
+                <!--top row-->
+                <tr>
+                    <th>Name</th>
+                    <th>Birthdate</th>
+                    <th>Age</th>
+                    <th>Address</th>
+                    <th>Contact Number</th>
+                    <th>Email</th>
+                </tr>
+                <tr *ngFor="let plant of plants" onclick="displayPlantData(plant)">
+                    <td>{{ plant.common }}</td>
+                    <td>{{ plant.botanical }}</td>
+                    <td>{{ plant.zone }}</td>
+                    <td>{{ plant.light }}</td>
+                    <td>{{ plant.price }}</td>
+                    <td>{{ plant.availability }}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</ion-content>

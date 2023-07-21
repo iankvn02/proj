@@ -1,0 +1,53 @@
+.fill-up-container {
+    background-color: rgb(73, 72, 72);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+}
+
+.custom-item {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+}
+
+.fill-up {
+    margin-top: 150px;
+}
+
+.background-image {
+    position: relative;
+}
+
+.background-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 500px;
+    background-image: url('/assets/spes-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.fill-up {
+    padding: 50px;
+}
